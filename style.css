@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('http://domain.example/fonts/font.ttf'); /*URL to font*/
+}
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar{
+    background-color: rgb(255, 255, 255) ;
+    font-size: 11px;
+    width: auto;
+    height: 5px;  
+    margin: 0%;  
+    
+}
+.navbar img{    
+    height: auto;
+    width: 13px;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 0px;
+}
+.navdiv-left{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;    
+}
+.navdiv-left a {
+    text-decoration: none;
+    font-family: "Yantramanav", sans-serif;
+    padding: 10px;
+    align-items: center;
+}
+.navdiv-right {
+    width: 49%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center; 
+      
+}
+.navdiv-right img {
+    margin-right: 20px;
+
+}
+
+/*Ending of first Nav Ending of first Nav*/
+/*Ending of first Nav Ending of first Nav*/
+
+.second-navdiv{
+    background-color: #1e6deb;
+    width: auto;
+    height: 77px;
+    padding: 0px;
+
+}
+
+.second-inner-div{
+    height: 47px;
+    background-color: #1e6deb;
+    
+}
+.second-navdiv button{
+    align-items: flex-end;
+    align-items: center;
+    background: none;
+    border: none;
+    font-family: "Oswald",sans-serif;
+    color: white;
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.second-navdiv a{
+    text-decoration: none;
+    color: white;
+}
+
+#div-home {
+    margin-left: 250px;
+}
+
+#search-btn {
+    position: absolute;
+    top: 36px;
+    right: 50px;
+    width: 20px;
+    height: auto;
+    opacity: 0.5;
+    padding: 10px;
+}
+ /* Main Body */
+
+ #main-img-bg{
+    height: auto;
+    width: 100%;
+    position: static;
+    margin: 0%;
+ }
+
+ #player-img{
+    height: auto;
+    width: 787px;
+    position: absolute;
+    top: 10px;
+    margin-left: 642px;
+    margin-top: 182px;
+ }
+
+ #one-title{
+    position: absolute;
+    top: 480px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 10px;
+    margin-left: 180px;
+    color: #5f5f5d;
+    word-spacing: 30px;
+
+ }
+ #scnd-title{
+    position: absolute;
+    top: 460px;
+    font-size: 55px;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 2px;
+    margin-left: 180px;
+    color: #0611aa;
+    word-spacing: 0px;
+ }
+
+ .one-title{
+    height: 1013.6px;
+    width: 1330px;
+    padding: 110px 15px 100px;
+ }
+ .one-title{
+    height: 91.24px;
+    width: 1300px;
+ }
+ #sub-div {
+    text-align: center;
+    font-size: 13px;
+    font-family: Yantramanav, sans-serif;
+    letter-spacing: 3px;
+    color: #8c8c8c;
+    margin-bottom: -5px; /* Adjust this value as needed */
+}
+
+#main-div {
+    text-align: center;
+    font-size: 54px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#sub-div, #main-div {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 10px; /* Optional: Adds some space between the grid items */
+  }
+  
+  .image-item {
+    width: 100%; /* Ensures the image fills the entire grid cell */
+    overflow: hidden; /* Prevents images from overflowing the grid cell */
+  }
+  
+  .image-item img {
+    width: 100%; /* Makes the image fill the entire div */
+    height: auto; /* Maintains aspect ratio */
+  }
+
+  #img3{
+    height: 369px;
+  }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; /* Optional: Set a max-width for the container */
+    margin-left     : 130px;
+}
+
+.grid-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+.third-pg-1{
+    width: 50%;
+    float: left;
+}
+.third-pg-1 img{
+    height: 470px;
+    width: auto;
+    margin-top: 120px;
+    margin-left: 120px
+}
+.third-pg-2{
+    width: 49%;
+    float: left;
+}
+.inner-text{
+    
+    margin-top: 150px;
+    margin-left: 120px
+}
+.inner-text h1{
+
+    font-size: 54px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+}
+.inner-text h2{
+    font-size: 13px;
+    font-family: Yantramanav, sans-serif;
+    letter-spacing: 3px;
+    color: #8c8c8c;
+    margin: 0%;
+}
+
+/*.third-pg{
+    width: 500px;
+    background-image: url(images/attern-square-special-game-patterns-squares-symbols-for-greek-titans-115630597963hdfowzl6n-removebg-preview.png);
+    
+}*/
+
+.text-3-1{
+    font-size: 24px;
+    font-family: Yantramanav, sans-serif;
+    color: #8c8c8c;
+}
+.Button-1 a{
+    color: black;
+    background: white;
+    letter-spacing: 1px;
+    font-size: 19px;
+    border: solid;
+    padding: 10px 20px 10px 20px ;
+}
+.Button-1 a:hover{
+    background-color: yellow;
+    color: white;
+    border: black;
+}
+
+.five-pg{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+.five-pg img{
+    width: 100%;
+    
+}
+.five-img {
+    margin-top: 20px;
+    
+}
+.six-pg{
+    width: 100%;
+}
+
+.six-l{
+    width: 50%;
+    height: auto;
+    float: left;
+    
+}
+.six-r{
+    width: 50%;
+    height: auto;
+    float: left;
+    
+}
+.six-l img{
+    margin-top: 100px;
+    margin-left: 154px;
+    width: auto;
+    height: 645px;
+
+}
+.text-six-1{
+    margin-top: 260px;
+    font-size: 40px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+.coma-img{
+    position: relative;
+}
+.text-six-2{
+    font-size: 13px;
+    font-family: Yantramanav, sans-serif;
+    letter-spacing: 3px;
+    color: #8c8c8c;
+    margin: 0%;
+}
+.text-six-3{
+    font-size: 24px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+}
+.yennum-1{
+    width: 100%;
+    height: 230px;
+    background-color: #f2dd21;
+    
+}
+.yennum-h1{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 89px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: #1e6deb;
+}
+.spons-h1{
+    font-size: 34px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 600;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 40%;
+    margin-top: 157px;
+
+}
+.spons-h2{
+    font-size: 13px;
+    font-family: Yantramanav, sans-serif;
+    letter-spacing: 3px;
+    color: #8c8c8c;
+    margin: 0%;
+    margin-left: 44.5%;
+    margin-top: 77px;
+
+}
+.inner1{
+    width: 302.5px;
+    height: 149.1px;
+    float: left ;
+    margin: 10px;
+    align-items: center;
+    
+}
+.main-spons-1 .main-spons-2{
+    padding: 20px;
+}
+.inner1 img{
+    width: 200px;
+    height: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-h1{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 13px;
+    font-family: Yantramanav, sans-serif;
+    letter-spacing: 3px;
+    color: #8c8c8c;
+}
+.footer{
+    width: 100%;
+    height: 458px;
+    background-color: #007BFF;
+    margin-top: 435px;
+}
+.footer-1{
+    width: 25%;
+    position: relative;
+    top: 130px;
+    margin-left: 90px;
+}
+.footer-h1{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+/* .footer p{
+    font-size: 19px;
+    font-family: Yantramanav, sans-serif;
+    color: white;
+} */
+.loc-1{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    margin-top: 50px;
+    
+}
+.loc-p{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 19px;
+    font-family: Yantramanav, sans-serif;
+    color: white;
+}
+.loc-2{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    margin-top: 50px;
+    
+}
+.first-part{
+    height: 250px;
+    width: 60%;
+    float: left;
+    margin-top: 90px;
+    margin-left: 190px;
+    position: absolute;
+}
+.about{
+    width: 50%;
+    height: 320px;
+    
+    float: left;
+}
+.about1{
+    position: absolute;
+    top: 25PX;
+    margin: 0;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+.about2{
+    margin: 0;
+    font-size: 19px;
+    font-family: Yantramanav, sans-serif;
+    color: white;
+    top: 65px;
+    position: absolute;
+}
+.about img{
+    margin-top: 210px;
+    width: auto;
+    height: 30px;
+    float: left;
+}
+.about3{
+    margin: 0;
+    font-size: 19px;
+    font-family: Yantramanav, sans-serif;
+    color: white;
+    top: 185px;
+    position: absolute;
+    left: 50px;
+}
+.links{
+    
+    width: 50%;
+    height: 320px;
+    float: left;
+}
+.list12{
+    list-style-type: square;
+    font-size: 19px;
+    margin: 0;
+    font-size: 19px;
+    font-family: Yantramanav, sans-serif;
+    color: white;
+    top: 65px;
+    position: absolute;
+}
+.inner-list{
+    margin-bottom: 15px;
+}
+.footer a:hover{
+    color: #f2dd21;
+}  
+.second-part{
+    height: 250px;
+    width: 30%;
+    margin-top: 90px;
+    margin-left: 990px;
+    float: left;
+    
+
+}
+.blog-h1{
+    font-family: Oswald, sans-serif;
+    letter-spacing: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+.blog1{
+    width: 80%;
+    height: 80px;
+    margin-top: 10px;
+    
+}
+.blog1 a{
+    font-size: 15px;
+    font-family: Yantramanav, sans-serif;
+    
+}
+.blog2{
+    width: 80%;
+    height: 80px;
+    margin-top: 10px;
+    
+}
+.blog3{
+    width: 80%;
+    height: 80px;
+    margin-top: 10px;
+    
+}
+
+/* .blog1 p{
+    margin: 0;
+    font-size: 10px;
+    font-family: Yantramanav, sans-serif;
+    color: #b6b6b6;
+} */
+ .ending{
+    width: 100%;
+    height: 200px;
+    background-color: #1959c1;
+    position: absolute;
+    top: 4940px;
+ }
